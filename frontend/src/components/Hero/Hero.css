@@ -1,0 +1,133 @@
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.hero img {
+    margin-top: 150px;
+    border-radius: 500px;
+    width: 400px;
+    height: 400px;
+}
+
+.hero h1 {
+    text-align: center;
+    width: 80%;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    background: linear-gradient(270deg, #AA076B 10%, #61045F 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    width: 80%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.hero-connect {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #AA076B -5.09%, #61045F 106.28%);
+    cursor: pointer;
+}
+
+.hero-resume {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color:white;
+    /* padding: 25px 60px; */
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+
+.hero-resume:hover{
+    background-color: #AA076B;
+    color: white;
+    border: none;
+}
+
+.hero-connect:hover{
+    transform: scale(1.05);
+}
+
+.hero-resume:hover{
+    border-color: #AA076B;
+}
+
+@media (max-width: 768px) {
+    .hero img {
+        margin-top: 80px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+        width: 90%;
+    }
+
+    .hero p {
+        font-size: 18px;
+        line-height: 30px;
+        width: 90%;
+    }
+
+    .hero-action {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .hero-connect, .hero-resume {
+        width: 100%;
+        text-align: center;
+        padding: 12px 12px;
+        font-size: 20px;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero img {
+        margin-top: 50px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .hero-action {
+        font-size: 18px;
+    }
+}
