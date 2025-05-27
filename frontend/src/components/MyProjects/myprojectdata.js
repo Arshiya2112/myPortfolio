@@ -5,9 +5,9 @@ const myproject_data = [
     link: "https://github.com/abhis-1/studious",
   },
   {
-    title : "Expense Tracker",
+    title : "StillSpace - Focus App",
     p_img : "../../image2.png",
-    link : "https://github.com/Arshiya2112/expense-tracker"
+    link : "https://pomodoro-app-ten-iota.vercel.app"
   },
   {
     title : "PingPals - Real-time Chat Application",

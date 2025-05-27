@@ -7,7 +7,6 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <h1>ArSh</h1>
       <ul className="nav-menu">
         <li>
           <AnchorLink className="anchor-link" href="#home">
