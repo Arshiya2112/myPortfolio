@@ -11,7 +11,7 @@ const Hero = () => {
         <p>With a passion for building innovative and user-friendly web applications, experience in the MERN stack and in programming, I’m committed to creating impactful solutions.</p>
         <div className='hero-action'>
             <div className='hero-connect'><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
-            <a href="/arshResume.pdf" target="_blank" rel="noopener noreferrer" className='hero-resume'>View Resume</a>
+            <a href="/ArshiyaSrivastava.pdf" target="_blank" rel="noopener noreferrer" className='hero-resume'>View Resume</a>
         </div>
     </div>
   )

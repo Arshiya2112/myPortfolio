@@ -31,7 +31,7 @@ const Navbar = () => {
         {/* <li><AnchorLink className='anchor-link' offset={50} href='#hero'><p onClick={() => setMenu('hero')}>Resume</p></AnchorLink></li> */}
         <li>
           <a
-            href="./arshResume.pdf"
+            href="./ArshiyaSrivastava.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="anchor-link"
